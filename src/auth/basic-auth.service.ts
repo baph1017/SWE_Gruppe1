@@ -63,7 +63,7 @@ export default class BasicAuthService {
         try {
             response = await fetch(request)
         // Optional catch binding parameters
-        } catch {
+        } catch  {
             console.error(
                 'BasicAuthService.login: Kommunikationsfehler mit d. Appserver')
             return Promise.reject(
